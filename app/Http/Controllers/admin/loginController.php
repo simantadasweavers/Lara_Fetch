@@ -40,7 +40,7 @@ class loginController extends Controller
     ->get()->count();
 
     if($num==1){
-        // Store a piece of data in the session...
+    // Store a piece of data in the session...
     session(['adminmail' => $email]);
 
     // $rec = Downloads::orderBy('enrollno', 'DESC')->get();
